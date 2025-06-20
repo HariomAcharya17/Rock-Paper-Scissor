@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: auto;
+    text-align: center;
+    background-color:white;}
+
+h1{
+    background-color: bisque;
+    color: rgba(87, 48, 0, 0.76);
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.choice{
+    height: 200px;
+    width: 50px;
+    display: flex;
+    margin-right: 20px;
+
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+
+    
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13rem;
+    margin-top: 5rem;
+}
+
+.choice:hover{
+    opacity: 60%;
+    cursor:grab;
+}
+
+.score-table{
+    display:inline-flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 12rem;
+    border-radius: 20%;
+    margin-bottom: 3rem;
+    margin-left: 5px;
+}
+#msg{
+    font-size: 1.5rem;
+    color: brown;
+    background-color: blanchedalmond;
+    display:inline;
+    border-radius:0.5rem;
+   
+}
+
+#img1{
+    height: 30px;
+    width: 30px;
+     margin-top: 15px;
+}
+
+#img2{
+    height: 30px;
+    width: 30px;
+     margin-top: 15px;
+}
+#user-box{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    
+}
+
+#user-box1{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+#restartBtn{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color:navajowhite;
+    gap: 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
